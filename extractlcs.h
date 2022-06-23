@@ -103,7 +103,11 @@ void buildLcs(LCS_matrix* matrix, char* bufferFirst, char* bufferSecond);
  */
 char* printLcs(LCS_matrix* matrix, char* bufferFirst, char* bufferSecond);
 
-
+/**
+ * Scrive la LCS nel file di outpu
+ * @param lcsStr
+ * @param output
+ */
 void writeToOutput(lcs_str* lcsStr, char* output);
 void closeAndFree(lcs_str * lcsStr, LCS_matrix* matrix);
 void fillBufferString( FILE* file, char* bufferString, long buffer_size );
