@@ -1,4 +1,4 @@
-LCS String Finder in Binary Files
+#LCS String Finder in Binary Files
 
 This project is a Longest Common Subsequence (LCS) implementation in C, specifically designed to find the LCS between strings extracted from binary files. The program reads binary files, extracts string data, and computes the LCS between them.
 Features
